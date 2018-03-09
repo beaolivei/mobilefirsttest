@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #E2B956;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+@media ( min-width: 760px) {
+    nav {
+        height: 100px;
+
+    }
+}
+
+nav a {
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #0EA610;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+}
+@media (min-width: 760px) {
+    nav a { 
+        border-radius: 8px;
+        font-size: 30px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 4%;
+        line-height: 1px;
+
+      
+    }
+}
+
+
+nav img {
+    background-color: #E2B956;
+}
+
+header {
+    background-color: rgba(226, 185, 86, 0.2)
+}
+header img {
+    padding-top: 60px;
+    margin-left: 30%;
+}
+@media (min-width: 760px) {
+    header img {
+     margin-left: 310px;
+     margin-top: 80px;
+    }
+}
+.one {
+    background-color: rgba(226, 185, 86, 0.2)
+}
+.one a{
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #0EA610;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    margin-left: 23%;
+
+}
+
+.one p{
+    margin-bottom: 10px;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%; 
+    position: relative;
+    
+}
+
+.cardapio:before {
+    content: "";
+    background-image: url(../img/background-comida-grafico.jpg);
+    background-repeat: repeat;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 440px;
+    left: 0;
+   
+}
+
+.cardapio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    position: relative;
+}
+.cardapio2:before {
+    content: "";
+    background-image: url(../img/chocolate.jpg);
+    background-repeat: repeat;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 440px;
+    left: 0;
+    right: 0;
+}
+@media (min-width: 720px) {
+    .pratos > div, .sobremesa > div {
+        padding: 40px;
+
+    }
+    .cardapio:before , .cardapio2:before {
+        height: 620px;
+    }
+}
+
+
+
+
+@media  (min-width: 760px){
+    .pratos p, .sobremesa p {
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+.pratos img {
+    margin-bottom: 10px;
+}
+
+.one h1 {
+    text-align: center;
+}
+@media (min-width: 760px) {
+    .one h1 {
+        font-size: 40px;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+@media (min-width: 760px) {
+    .one h2 {
+        font-size: 33px;
+    }
+}    
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+.info div {
+    padding: 10px;
+}
+
+.rede-social {
+    margin-top: 35px;
+}
+.rede-social img{
+    min-width: 20px;
+    max-height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+footer img {
+    min-width: 20px;
+    max-height: 40px;
+}
+footer p {
+    text-align: center;
+
+}
